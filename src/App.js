@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import Amplify, {Auth} from 'aws-amplify';
+import {Amplify, Auth} from 'aws-amplify';
 import awsmobile from "./aws-exports";
 import { withAuthenticator } from 'aws-amplify-react';
 
